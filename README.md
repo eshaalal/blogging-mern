@@ -85,4 +85,4 @@ Contributions are welcome! If you'd like to contribute, please follow these step
 
 ## Contact
 
-For any inquiries or support, please contact us at [bloggingwebsite@example.com](mailto:eshalal9693@gmail.com)
+For any inquiries or support, please contact us at [eshalal9693@gmail.com](mailto:eshalal9693@gmail.com)
