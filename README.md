@@ -48,7 +48,7 @@ To install and run the project locally, follow these steps:
 
 ### Backend Setup
 
-1. Clone the repository: `git clone https://github.com/yourusername/blogging-website.git`
+1. Clone the repository: `git clone https://github.com/eshaalal/blogging-mern.git`
 2. Navigate to the `backend` directory: `cd blogging-website-backend`
 3. Install dependencies: `npm install`
 4. Configure environment variables:
