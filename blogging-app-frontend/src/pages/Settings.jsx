@@ -1,4 +1,4 @@
-import { Formik, Form, Field } from 'formik'
+import { Formik, Form, Field, ErrorMessage } from 'formik';
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useQueryClient } from 'react-query'
@@ -44,7 +44,7 @@ function Settings() {
             <Formik onSubmit={onSubmit} initialValues={user} enableReinitialize>
               {({ isSubmitting }) => (
                 <>
-                  <FormErrors />
+                  <FormErrors/>
                   <Form>
                     <fieldset disabled={isSubmitting}>
                       <fieldset className="form-group">
