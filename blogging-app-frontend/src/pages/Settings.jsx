@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 import { useQueryClient } from 'react-query'
 import axios from 'axios'
 import { useAuth, useUserQuery } from '../hooks'
-import { FormErrors } from '../components'
+import FormErrors from '../components/FormErrors'; // Ensure this import path is correct
 
 function Settings() {
   const {
