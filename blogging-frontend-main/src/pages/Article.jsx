@@ -12,7 +12,7 @@ const { slug } = useParams()
 console.log('article',article)
 
 const getArticleBySlug = async (slug) => {
-    const {data} = await axios.get(`https://blogging-api-pied.vercel.app/articles/${slug}`);
+    const {data} = await axios.get(`https://blogging-api-hnwe.onrender.com/articles/${slug}`);
   
     console.log("getArticleBySlug", { data });
   

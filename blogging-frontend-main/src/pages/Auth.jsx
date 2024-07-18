@@ -16,7 +16,7 @@ function Auth() {
       // api request to login or register
 
       const { data } = await axios.post(
-        `https://blogging-api-pied.vercel.app/api/users${isRegister ? "" : "/login"}`,
+        `https://blogging-api-hnwe.onrender.com/api/users${isRegister ? "" : "/login"}`,
         { user: values }
       );
 
