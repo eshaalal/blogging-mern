@@ -6,12 +6,8 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 const connectDB = require("../config/dbConnect");
 const mongoose = require("mongoose");
-app.use(cors({
-  origin:["https://blogkro.vercel.app"],
-  methods:["GET","POST","PUT","DELETE"],
-  credentials:true,
-  
-}));const corsOptions = require('../config/corsOptions');
+app.use(cors());
+const corsOptions = require('../config/corsOptions');
 
 
 connectDB();
