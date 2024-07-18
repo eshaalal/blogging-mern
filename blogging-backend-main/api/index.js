@@ -1,14 +1,16 @@
 require("dotenv").config();
 const express = require("express");
+const cors = require('cors');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
 const connectDB = require("../config/dbConnect");
 const mongoose = require("mongoose");
 app.use(cors({
-  origin:["https://blogkro.vercel.app/"],
+  origin:["https://blogkro.vercel.app"],
   methods:["GET","POST","PUT","DELETE"],
-  credentials:true
+  credentials:true,
+  
 }));const corsOptions = require('../config/corsOptions');
 
 
