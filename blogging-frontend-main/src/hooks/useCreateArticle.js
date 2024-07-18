@@ -7,7 +7,7 @@ const creteArticle = async (values) => {
     console.log("creteArticle", { values });
 
     const { data } = await axios.post(
-        `http://localhost:3001/api/articles`,
+        `https://blogging-api-pied.vercel.app/api/articles`,
         { article: {...values.values} }
       );
 
