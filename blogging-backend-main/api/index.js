@@ -22,6 +22,8 @@ app.use("/api", require("../routes/userRoutes"));
 // article routes 
 
 app.use("/api/articles", require("../routes/articleRoutes"));
+app.use("/api/tags", require("../routes/tagRoutes"));
+app.use("/api/articles", require("../routes/commentRoutes"));
 
 
 mongoose.connection.once("open", () => {

@@ -10,6 +10,7 @@ export {default as ArticlePreview} from './ArticlePreview';
 
 export {default as ArticleMeta} from './ArticleMeta';
 
+export {default as PopularTags} from './PopularTags';
 
 
 
